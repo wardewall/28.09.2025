@@ -1,0 +1,45 @@
+.env
+.env.*
+task.md
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+
+# Go build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.a
+
+# Binaries / output directories
+bin/
+build/
+dist/
+tmp/
+
+# Coverage and profiles
+coverage.out
+coverage.txt
+*.coverprofile
+*.cov
+*.prof
+*.pprof
+profile.out
+
+# Go workspace (optional)
+go.work
+
+# Logs
+*.log
+
+# Editor swap files
+*.swp
+*.swo
+
+# Swagger generated artifacts (keep docs/docs.go tracked)
+docs/swagger.json
+docs/swagger.yaml
